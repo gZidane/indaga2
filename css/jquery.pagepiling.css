@@ -40,9 +40,11 @@ html, body {
     margin-top: -32px;
     top: 50%;
     opacity: 1;
+    display: none !important;
 }
 #pp-nav.right {
     right: 17px;
+    display: none !important;
 }
 #pp-nav.left {
     left: 17px;
