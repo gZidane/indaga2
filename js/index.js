@@ -4,6 +4,15 @@ $('document').ready(function()
         direction: 'vertical',
         afterRender: function()
         {
+            $('.btnArriba').click(function()
+            {
+                $.fn.pagepiling.moveTo(1);
+            });
+            $('.btnAbajo').click(function()
+            {
+                $.fn.pagepiling.moveTo(2);
+
+            });
 
             // setTimeout(function()
             // {
@@ -19,6 +28,8 @@ $('document').ready(function()
             // }, 500);
         },
     });
+
+
 
 
 
