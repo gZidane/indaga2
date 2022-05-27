@@ -1,3 +1,15 @@
+@font-face
+{
+    font-family: 'popB';
+    src: url('./fonts/Poppins-Bold.ttf');
+}
+
+@font-face
+{
+    font-family: 'popR';
+    src: url('./fonts/Poppins-Regular.ttf');
+}
+
 html, body
 {
     margin: 0;
@@ -28,6 +40,8 @@ body
         border: none;
         border-radius: 100%;
         background: #000;
+        background-image: url('/img/arrowD.png') center;
+        background-size: 50px 50px;
         cursor: pointer;
     }
     .contenedor1
@@ -64,6 +78,7 @@ body
         font-size: 36px;
         color: #000;
         text-decoration: none;
+        font-family: popR;
     }
     .cabeceraAbajo
     {
@@ -108,6 +123,7 @@ body
     .contenidoAbajo h1
     {
         font-size: 24px;
+        font-family: popB;
     }
     .contenidoAbajo p
     {
@@ -235,6 +251,7 @@ body
         font-size: 20px;
         color: #000;
         text-decoration: none;
+        font-family: popR;
     }
     .cabeceraAbajo
     {
@@ -276,12 +293,14 @@ body
     .contenidoAbajo h1
     {
         font-size: 24px;
+        font-family: popB;
     }
     .contenidoAbajo p
     {
         font-size: 18px;
         padding: 0 50px;
         line-height: 1.5;
+        font-family: popR;
     }
     .contenidoPie
     {
