@@ -154,6 +154,10 @@ body
         height: 100px;
         background: #000;
     }
+    .contenedor2
+    {
+        background: #fff;
+    }
 
     .contenido2
     {
@@ -186,9 +190,27 @@ body
         font-size: 18px;
         text-align: left;
     }
+    .contenido3
+    {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        padding: 0 16.8% 0 16.8%;
+        box-sizing: border-box;
+    }
+    .contenidoAbajo3
+    {
+        width: 100%;
+        text-align: center;
+        padding-top: 30px;
+        box-sizing: border-box;
+    }
     .formCont
     {
-        width: 87.3%;
+        width: 50%;
+        margin: 0 auto;
     }
     .formCont form
     {
