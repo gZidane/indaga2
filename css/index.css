@@ -120,7 +120,9 @@ body
     }
     .contenidoArriba img
     {
-        width: 100%;
+        position: absolute;
+        width: 17.88%;
+        right: 4.4%;
     }
     .contenidoAbajo
     {
@@ -189,7 +191,9 @@ body
     }
     .contenidoArriba2 img
     {
-        width: 35%;
+        position: absolute;
+        width: 27.08%;
+        right: 7.92%;
     }
     .contenidoAbajo2
     {
@@ -202,7 +206,6 @@ body
     {
         font-size: 1.24vw;
         text-align: justify;
-        letter-spacing: 1.6px;
         font-family: popR;
         line-height: 1.5;
     }
