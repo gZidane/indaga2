@@ -14,10 +14,13 @@ $('document').ready(function()
 
             });
 
-            $('.botonesCont button').css({ height: $('.botonesCont').width() + 'px' });
-            $('.cabeceraAbajo a img').css({ width: ($(window).width() * 0.023) + 'px', height: ($(window).width() * 0.023) + 'px' });
-            $('.contenidoArriba img').css({ top: ($(window).height() / 2) - ($('.contenidoArriba img').height() / 2) + 'px' });
-            $('.contenidoArriba2 img').css({ top: ($(window).height() / 2) - ($('.contenidoArriba img').height() / 2) + 'px' });
+            if($(window).width() >= 575)
+            {
+                $('.botonesCont button').css({ height: $('.botonesCont').width() + 'px' });
+                $('.cabeceraAbajo a img').css({ width: ($(window).width() * 0.023) + 'px', height: ($(window).width() * 0.023) + 'px' });
+                $('.contenidoArriba img').css({ top: ($(window).height() / 2) - ($('.contenidoArriba img').height() / 2) + 'px' });
+                $('.contenidoArriba2 img').css({ top: ($(window).height() / 2) - ($('.contenidoArriba img').height() / 2) + 'px' });
+            }
 
 
             // setTimeout(function()
