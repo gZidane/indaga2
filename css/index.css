@@ -434,7 +434,8 @@ body
     {
         font-size: 14px;
         font-family: popR;
-        padding: 0 7.3%;
+        padding: 0 5%;
+        text-align: justify;
         box-sizing: border-box;
     }
     .formCont
