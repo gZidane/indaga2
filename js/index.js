@@ -14,6 +14,16 @@ $('document').ready(function()
 
             });
 
+            $('.btnArribaMovil').click(function()
+            {
+                $.fn.pagepiling.moveTo(1);
+            });
+            $('.btnAbajoMovil').click(function()
+            {
+                $.fn.pagepiling.moveTo(2);
+
+            });
+
             if($(window).width() >= 575)
             {
                 $('.botonesCont button').css({ height: $('.botonesCont').width() + 'px' });
