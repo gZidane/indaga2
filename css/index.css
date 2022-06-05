@@ -252,11 +252,90 @@ body
         border: none;
         margin-top: 15px;
     }
+    .correoEnviadoCont
+    {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.5);
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+    .correoEnviadoInner
+    {
+        position: absolute;
+        width: 50%;
+        height: auto;
+        background: #fff;
+        border-radius: 5px;
+        padding: 50px 20px;
+        box-sizing: border-box;
+    }
+    .correoEnviadoInner p
+    {
+        font-size: 18px;
+        font-family: popR;
+        text-align: center;
+    }
+    .cerrarCorreoEnviado
+    {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 15px;
+        right: 15px;
+        border: none;
+        background: url("../img/close.png") no-repeat center;
+        background-size: 20px auto;
+        cursor: pointer;
+    }
 
 }
 
 @media (max-width: 575px)
 {
+    .correoEnviadoCont
+    {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.5);
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+    .correoEnviadoInner
+    {
+        position: absolute;
+        width: 90%;
+        height: auto;
+        background: #fff;
+        border-radius: 5px;
+        padding: 25px 15px;
+        box-sizing: border-box;
+    }
+    .correoEnviadoInner p
+    {
+        font-size: 16px;
+        font-family: popR;
+        text-align: center;
+    }
+    .cerrarCorreoEnviado
+    {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 5px;
+        right: 5px;
+        border: none;
+        background: url("../img/close.png") no-repeat center;
+        background-size: 20px auto;
+    }
     .botonesCont
     {
         display: none;
