@@ -82,13 +82,21 @@ $('.correoEnviadoInner').click(function(event)
 
 $('#formContacto').on('submit', function(event)
 {
-    $('input.fd-form-check__input').click(function()
+    setTimeout(function()
     {
-        alert("Correcto");
-        $('.correoEnviadoCont').fadeIn(300, function()
+        console.log($('input[type="checkbox"]'));
+
+        $('#formContacto input[type="checkbox"], #formContacto label').on('click', function(event)
         {
-            $('.correoEnviadoCont').css({ display: 'flex' });
+            event.stopPropagation();
+
+            $('.correoEnviadoCont').fadeIn(300, function()
+            {
+                $('.correoEnviadoCont').css({ display: 'flex' });
+            });
         });
-    });
+
+    }, 1000);
+
 
 });
