@@ -1,4 +1,4 @@
-@font-face
+/* @font-face
 {
     font-family: 'popB';
     src: url('../fonts/Poppins-Bold.ttf');
@@ -6,9 +6,9 @@
 
 @font-face
 {
-    font-family: 'popR';
+    font-family: 'Helvetica';
     src: url('../fonts/Poppins-Regular.ttf');
-}
+} */
 
 html, body
 {
@@ -89,7 +89,7 @@ body
         font-size: 1.74vw;
         color: #000;
         text-decoration: none;
-        font-family: popR;
+        font-family: Helvetica;
         letter-spacing: 1.5px;
     }
     .cabeceraAbajo
@@ -124,7 +124,7 @@ body
     {
         position: absolute;
         width: 17.88%;
-        right: 4.4%;
+        right: 15%;
     }
     .contenidoAbajo
     {
@@ -146,7 +146,7 @@ body
         font-size: 1.24vw;
         padding: 0;
         line-height: 1.5;
-        font-family: popR;
+        font-family: Helvetica;
     }
     .contenidoPie
     {
@@ -213,7 +213,7 @@ body
     {
         font-size: 1.24vw;
         text-align: justify;
-        font-family: popR;
+        font-family: Helvetica;
         line-height: 1.5;
     }
     .contenido3
@@ -285,7 +285,7 @@ body
     .correoEnviadoInner p
     {
         font-size: 18px;
-        font-family: popR;
+        font-family: Helvetica;
         text-align: center;
     }
     .cerrarCorreoEnviado
@@ -331,7 +331,7 @@ body
     .correoEnviadoInner p
     {
         font-size: 16px;
-        font-family: popR;
+        font-family: Helvetica;
         text-align: center;
     }
     .cerrarCorreoEnviado
@@ -390,7 +390,7 @@ body
         font-size: 20px;
         color: #000;
         text-decoration: none;
-        font-family: popR;
+        font-family: Helvetica;
         margin: 0;
     }
     .cabeceraAbajo
@@ -444,7 +444,7 @@ body
         font-size: 16px;
         padding: 0 7.3%;
         line-height: 1.5;
-        font-family: popR;
+        font-family: Helvetica;
         box-sizing: border-box;
     }
     .contenidoPie
@@ -520,7 +520,7 @@ body
     .contenidoAbajo2 p
     {
         font-size: 14px;
-        font-family: popR;
+        font-family: Helvetica;
         padding: 0 5%;
         text-align: justify;
         box-sizing: border-box;
