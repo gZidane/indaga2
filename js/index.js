@@ -8,6 +8,11 @@ $('document').ready(function()
     //     },
     // });
 
+    setTimeout(function()
+    {
+        $('body').css({ opacity: '1' });
+    }, 1200);
+
     $('.btnArriba, .btnAbajoMovil img').click(function(event)
     {
         event.stopPropagation();

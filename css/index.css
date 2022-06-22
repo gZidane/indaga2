@@ -35,6 +35,7 @@ body
     width: 100%;
     height: 100%;
     animation: fadeUp 1.3s ease-in-out;
+    opacity: 0;
 }
 
 /* ============== ESTILOS PARA ESCRITORIO ============ */
