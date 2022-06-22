@@ -1,6 +1,6 @@
 /* @font-face
 {
-    font-family: 'popB';
+    font-family: 'Helvetica';
     src: url('../fonts/Poppins-Bold.ttf');
 }
 
@@ -139,7 +139,7 @@ body
     .contenidoAbajo h1
     {
         font-size: 2.34vw;
-        font-family: popB;
+        font-family: Helvetica;
     }
     .contenidoAbajo p
     {
@@ -437,7 +437,7 @@ body
     .contenidoAbajo h1
     {
         font-size: 24px;
-        font-family: popB;
+        font-family: Helvetica;
     }
     .contenidoAbajo p
     {
@@ -491,8 +491,8 @@ body
         width: 100%;
         height: 100%;
         box-sizing: border-box;
-        background: url("../img/ilustracion2_2.png") no-repeat 80px center;
-        background-size: 100% auto;
+        /* background: url("../img/ilustracion2_2.png") no-repeat 80px center;
+        background-size: 100% auto; */
         background-color: #fff;
         padding-top: 118px;
     }
@@ -504,11 +504,10 @@ body
     {
         width: 100%;
         text-align: center;
-        display: none;
     }
     .contenidoArriba2 img
     {
-        width: 35%;
+        width: 45%;
     }
     .contenidoAbajo2
     {
